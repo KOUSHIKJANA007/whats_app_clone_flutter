@@ -64,7 +64,7 @@ class OnBoardingScreen extends StatelessWidget {
       ),
       floatingActionButton: UIHelper.CustomButton(
           callBack: (){
-            Navigator.push(context, MaterialPageRoute(builder: (context)=>const LoginScreen()));
+            Navigator.push(context, MaterialPageRoute(builder: (context)=>LoginScreen()));
           },
           buttonName: "Agree and continue"
       ),
